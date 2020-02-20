@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html>
 <head>
 	<meta charset="utf-8">
 	<title>LEO SHOP</title>
@@ -54,14 +54,14 @@
 						</li>
 						<li id="search">							<form>
 								<input type="search" name="search" placeholder="Search..">
-								<button type="submit"><img src="img/search.png"></button>
+								<button type="submit"><img alt="search" src="img/search.png"></button>
 								</form>
 						</li>
 						<li>
-							<a href="#"><img src="img/unknown.png"></a>
+							<a href="#"><img alt="unknown" src="img/unknown.png"></a>
 						</li>
 						<li>
-							<a data-toggle="modal" data-target="#cartModal" href="#"><img src="img/cart.png"></a>
+							<a data-toggle="modal" data-target="#cartModal" href="#"><img alt="cart" src="img/cart.png"></a>
 						</li>
 						<li>
 							<a data-toggle="modal" data-target="#cartModal" id="cart-count" href="#">CART</a>
@@ -75,7 +75,7 @@
 										<div class="modal-body">
 											<ul class="cart-ul">
 												<li v-if="buyFirst > 0" class="buyFirst">
-													<a href="#"><img src="img/Shape-2-copy-8.png"></a>
+													<a href="#"><img alt="product" src="img/Shape-2-copy-8.png"></a>
 													<div class="row">
 														<div class="col">
 															<span class="description-product">Lorem Ipsum is simply.
@@ -94,7 +94,7 @@
 													</div>
 												</li>
 												<li v-if="buySecond > 0" class="buySecond">
-													<a href="#"><img src="img/Layer-15.png"></a>
+													<a href="#"><img alt="product" src="img/Layer-15.png"></a>
 													<div class="row">
 														<div class="col">
 															<span class="description-product">Nullam vestibulum.
@@ -113,7 +113,7 @@
 													</div>
 												</li>
 												<li v-if="buyThird > 0" class="buyThird">
-													<a href="#"><img src="img/saleProduct.png"></a>
+													<a href="#"><img alt="product" src="img/saleProduct.png"></a>
 													<div class="row">
 														<div class="col">
 															<span class="description-product">Donec et lorem suscipit.
@@ -132,7 +132,7 @@
 													</div>
 												</li>
 												<li v-if="buyFourth > 0" class="buyFourth">
-													<a href="#"><img src="img/Layer-17.png"></a>
+													<a href="#"><img alt="product" src="img/Layer-17.png"></a>
 													<div class="row">
 														<div class="col">
 															<span class="description-product">Curabitur pretium dui.
@@ -151,7 +151,7 @@
 													</div>
 												</li>
 												<li v-if="buyFifth > 0" class="buyFifth">
-													<a href="#"><img src="img/NEW-copy-7.png"></a>
+													<a href="#"><img alt="product" src="img/NEW-copy-7.png"></a>
 													<div class="row">
 														<div class="col">
 															<span class="description-product">Lorem Ipsum is simply.
@@ -170,7 +170,7 @@
 													</div>
 												</li>
 												<li v-if="buySixth > 0" class="buySixth">
-													<a href="#"><img src="img/Layer-19.png"></a>
+													<a href="#"><img alt="product" src="img/Layer-19.png"></a>
 													<div class="row">
 														<div class="col">
 															<span class="description-product">Sed tempus tellus .
@@ -189,7 +189,7 @@
 													</div>
 												</li>
 												<li v-if="buySeventh > 0" class="buySeventh">
-													<a href="#"><img src="img/Shape-2-copy-5.png"></a>
+													<a href="#"><img alt="product" src="img/Shape-2-copy-5.png"></a>
 													<div class="row">
 														<div class="col">
 															<span class="description-product">Lorem Ipsum is simply.
@@ -208,7 +208,7 @@
 													</div>
 												</li>
 												<li v-if="buyEighth > 0" class="buyEighth">
-													<a href="#"><img src="img/Shape-2-copy-10.png"></a>
+													<a href="#"><img alt="product" src="img/Shape-2-copy-10.png"></a>
 													<div class="row">
 														<div class="col">
 															<span class="description-product">Etiam egestas velit.</span>
@@ -225,7 +225,7 @@
 													</div>
 												</li>
 												<li v-if="buyNinth > 0" class="buyNinth">
-													<a href="#"><img src="img/Shape-2-copy-6.png"></a>
+													<a href="#"><img alt="product" src="img/Shape-2-copy-6.png"></a>
 													<div class="row">
 														<div class="col">
 															<span class="description-product">Mauris viverra magna.
@@ -262,32 +262,32 @@
 				<span class="products">FEATURED PRODUCTS</span>
 				<div class="row">
 					<div class="col new-product">
-						<a href="#"><img src="img/Shape-2-copy-8.png"></a>
+						<a href="#"><img alt="product" src="img/Shape-2-copy-8.png"></a>
 						<div class="row">
 							<div class="col">
 								<span class="description-product">Lorem Ipsum is simply.</span>
 								<span class="cost-product">$388.00</span>
 							</div>
 							<div class="col">
-								<button><img @click="buy" class="buyFirst" src="img/Layer-5.png"></button>
+								<button><img alt="buy" @click="buy" class="buyFirst" src="img/Layer-5.png"></button>
 							</div>
 						</div>
 					</div>
 
 					<div class="col normal-product">
-						<a href="#"><img src="img/Layer-15.png"></a>
+						<a href="#"><img alt="product" src="img/Layer-15.png"></a>
 						<div class="row">
 							<div class="col">
 								<span class="description-product">Nullam vestibulum.</span>
 								<span class="cost-product">$90.00</span>
 							</div>
 							<div class="col">
-								<button><img @click="buy" class="buySecond" src="img/Layer-5.png"></button>
+								<button><img alt="buy" @click="buy" class="buySecond" src="img/Layer-5.png"></button>
 							</div>
 						</div>
 					</div>
 					<div class="col sale-product">
-						<a href="#"><img src="img/saleProduct.png"></a>
+						<a href="#"><img alt="product" src="img/saleProduct.png"></a>
 						<div class="row">
 							<div class="col">
 								<span class="description-product">Donec et lorem suscipit.</span>
@@ -295,7 +295,7 @@
 								<span class="cost-product">$300.00</span>
 							</div>
 							<div class="col">
-								<button><img @click="buy" class="buyThird" src="img/Layer-5.png"></button>
+								<button><img alt="buy" @click="buy" class="buyThird" src="img/Layer-5.png"></button>
 							</div>
 						</div>
 					</div>
@@ -303,39 +303,39 @@
 
 				<div class="row">
 					<div class="col normal-product">
-						<a href="#"><img src="img/Layer-17.png"></a>
+						<a href="#"><img alt="product" src="img/Layer-17.png"></a>
 						<div class="row">
 							<div class="col">
 								<span class="description-product">Curabitur pretium dui.</span>
 								<span class="cost-product">$180.00</span>
 							</div>
 							<div class="col">
-								<button><img @click="buy" class="buyFourth" src="img/Layer-5.png"></button>
+								<button><img alt="buy" @click="buy" class="buyFourth" src="img/Layer-5.png"></button>
 							</div>
 						</div>
 					</div>
 
 					<div class="col new-product">
-						<a href="#"><img src="img/NEW-copy-7.png"></a>
+						<a href="#"><img alt="product" src="img/NEW-copy-7.png"></a>
 						<div class="row">
 							<div class="col">
 								<span class="description-product">Lorem Ipsum is simply.</span>
 								<span class="cost-product">$278.00</span>
 							</div>
 							<div class="col">
-								<button><img @click="buy" class="buyFifth" src="img/Layer-5.png"></button>
+								<button><img alt="buy" @click="buy" class="buyFifth" src="img/Layer-5.png"></button>
 							</div>
 						</div>
 					</div>
 					<div class="col normal-product">
-						<a href="#"><img src="img/Layer-19.png"></a>
+						<a href="#"><img alt="product" src="img/Layer-19.png"></a>
 						<div class="row">
 							<div class="col">
 								<span class="description-product">Sed tempus tellus .</span>
 								<span class="cost-product">$378.00</span>
 							</div>
 							<div class="col">
-								<button><img @click="buy" class="buySixth" src="img/Layer-5.png"></button>
+								<button><img alt="buy" @click="buy" class="buySixth" src="img/Layer-5.png"></button>
 							</div>
 						</div>
 					</div>
@@ -343,20 +343,20 @@
 
 				<div class="row">
 					<div class="col new-product">
-						<a href="#"><img src="img/Shape-2-copy-5.png"></a>
+						<a href="#"><img alt="product" src="img/Shape-2-copy-5.png"></a>
 						<div class="row">
 							<div class="col">
 								<span class="description-product">Lorem Ipsum is simply.</span>
 								<span class="cost-product">$500.00</span>
 							</div>
 							<div class="col">
-								<button><img @click="buy" class="buySeventh" src="img/Layer-5.png"></button>
+								<button><img alt="buy" @click="buy" class="buySeventh" src="img/Layer-5.png"></button>
 							</div>
 						</div>
 					</div>
 
 					<div class="col sale-product">
-						<a href="#"><img src="img/Shape-2-copy-10.png"></a>
+						<a href="#"><img alt="product" src="img/Shape-2-copy-10.png"></a>
 						<div class="row">
 							<div class="col">
 								<span class="description-product">Etiam egestas velit.</span>
@@ -364,19 +364,19 @@
 								<span class="cost-product">$90.00</span>
 							</div>
 							<div class="col">
-								<button><img @click="buy" class="buyEighth" src="img/Layer-5.png"></button>
+								<button><img alt="buy" @click="buy" class="buyEighth" src="img/Layer-5.png"></button>
 							</div>
 						</div>
 					</div>
 					<div class="col new-product">
-						<a href="#"><img src="img/Shape-2-copy-6.png"></a>
+						<a href="#"><img alt="product" src="img/Shape-2-copy-6.png"></a>
 						<div class="row">
 							<div class="col">
 								<span class="description-product">Mauris viverra magna.</span>
 								<span class="cost-product">$370.00</span>
 							</div>
 							<div class="col">
-								<button><img @click="buy" class="buyNinth" src="img/Layer-5.png"></button>
+								<button><img alt="buy" @click="buy" class="buyNinth" src="img/Layer-5.png"></button>
 							</div>
 						</div>
 					</div>
