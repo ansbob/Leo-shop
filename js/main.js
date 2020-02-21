@@ -76,7 +76,7 @@ new Vue ({
 				$("span#fifth-product-cast").replaceWith("<span id=\"fifth-product-cast\">(" + this.buyFifth + ")</span>")
 			} else if (cl === "buySixth btn btn-success" || cl === "buySixth") {
 				this.buySixth++
-				$("span#sixth-product-cast").replaceWith("<span id=\"buySixth-product-cast\">(" + this.buySecond + ")</span>")
+				$("span#sixth-product-cast").replaceWith("<span id=\"sixth-product-cast\">(" + this.buySixth + ")</span>")
 			} else if (cl === "buySeventh btn btn-success" || cl === "buySeventh") {
 				this.buySeventh++
 				$("span#seventh-product-cast").replaceWith("<span id=\"seventh-product-cast\">(" + this.buySeventh + ")</span>")
